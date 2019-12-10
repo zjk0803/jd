@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44c58b35-d05f-46d4-8714-7129a0431084" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/jd/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/jd/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jd/spiders/jd_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/jd/spiders/jd_spider.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,20 +12,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jd/spiders/jd_spider.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="443">
+              <caret line="16" column="90" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jd/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="189">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="12" />
+              <folding>
+                <element signature="e#152#165#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,14 +44,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jd/spiders/jd_spider.py" />
         <option value="$PROJECT_DIR$/jd/items.py" />
+        <option value="$PROJECT_DIR$/jd/spiders/jd_spider.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1732" />
-    <option name="y" value="204" />
+    <option name="x" value="422" />
+    <option name="y" value="894" />
     <option name="width" value="3044" />
     <option name="height" value="1928" />
   </component>
@@ -111,15 +117,15 @@
       <option name="presentableId" value="Default" />
       <updated>1575967344282</updated>
       <workItem from="1575967352225" duration="1257000" />
-      <workItem from="1575974924904" duration="1965000" />
+      <workItem from="1575974924904" duration="2869000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3222000" />
+    <option name="totallyTimeSpent" value="4126000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="720" y="109" width="1522" height="964" extended-state="0" />
+    <frame x="531" y="281" width="1522" height="964" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24965894" />
@@ -152,17 +158,23 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jd/spiders/jd_spider.py">
+    <entry file="file://$PROJECT_DIR$/jd/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="189">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#152#165#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jd/items.py">
+    <entry file="file://$PROJECT_DIR$/jd/spiders/jd_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="443">
+          <caret line="16" column="90" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
