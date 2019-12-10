@@ -11,10 +11,9 @@ from scrapy import Item,Field
 
 class JdItem(Item):
     # define the fields for your item here like:
-    name =Field()
     title = Field()
-    pingjia = Field()
-    sole_num = Field()
-    price = Field()
+    comment_num = Field()
+    url = Field()
+    info = Field()
 
     pass
