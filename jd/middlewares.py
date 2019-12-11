@@ -62,7 +62,11 @@ class JdSpiderMiddleware(object):
         return cls(
             user_agent=crawler.settings.get('USER_AGENTS_LIST')
         )
+class  RandomUserAgent(object):
+    def __init__(self):
+        self.user_agent=settings['USER_AGENTS']
 
-    def process_request(self, request, spider):
-        agent = random.choice(self.user_agent)
-        request.headers['User-Agent'] = agent
+
+    def process_request(self,request,spider):
+        user_agent=random.choice(self.user_agent)
+        request.headers.setdefault("User-Agent",user_agent)
