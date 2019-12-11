@@ -15,11 +15,7 @@ class JdSpiderMiddleware(object):
     # passed objects.
 
     @classmethod
-    def from_crawler(cls, crawler):
-        # This method is used by Scrapy to create your spiders.
-        s = cls()
-        crawler.signals.connect(s.spider_opened, signal=signals.spider_opened)
-        return s
+
 
     def process_spider_input(response, spider):
         # Called for each response that goes through the spider
@@ -56,9 +52,17 @@ class JdSpiderMiddleware(object):
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
 
-    def __init__(self):
-        self.user_agent = settings['USER_AGENTS']
+
+
+    def __init__(self, user_agent):
+        self.user_agent = user_agent
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(
+            user_agent=crawler.settings.get('USER_AGENTS_LIST')
+        )
 
     def process_request(self, request, spider):
-        user_agent = random.choice(self.user_agent)
-        request.headers.setdefault("User-Agent", user_agent)
+        agent = random.choice(self.user_agent)
+        request.headers['User-Agent'] = agent

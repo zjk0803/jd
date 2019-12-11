@@ -147,3 +147,13 @@ USER_AGENT_LIST = [
     'Mozilla/4.8 [en] (X11; U; SunOS; 5.7 sun4u)',
     'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3724.8 Safari/537.36'
 ]
+
+DOWNLOADER_MIDDLEWARES = {
+'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
+   #'proxySpider.middlewares.MyCustomDownloaderMiddleware': 543,
+
+
+'jd.randomAgentMiddleware.MyUserAgentMiddleware': 400,
+}
+
+
