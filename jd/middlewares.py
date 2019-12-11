@@ -7,7 +7,8 @@
 
 from scrapy import signals
 
-
+import random
+from scrapy.conf import settings
 class JdSpiderMiddleware(object):
     # Not all methods need to be defined. If a method is not defined,
     # scrapy acts as if the spider middleware does not modify the
@@ -54,3 +55,10 @@ class JdSpiderMiddleware(object):
 
     def spider_opened(self, spider):
         spider.logger.info('Spider opened: %s' % spider.name)
+
+    def __init__(self):
+        self.user_agent = settings['USER_AGENTS']
+
+    def process_request(self, request, spider):
+        user_agent = random.choice(self.user_agent)
+        request.headers.setdefault("User-Agent", user_agent)
