@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="44c58b35-d05f-46d4-8714-7129a0431084" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jd/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/jd/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jd/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/jd/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +91,7 @@
       <workItem from="1576059902385" duration="141000" />
       <workItem from="1576060065699" duration="5000" />
       <workItem from="1576060097586" duration="7742000" />
+      <workItem from="1576127449887" duration="603000" />
     </task>
     <servers />
   </component>
@@ -116,10 +115,10 @@
       <screen x="102" y="0" width="1818" height="1080" />
     </state>
     <state width="1344" height="266" key="GridCell.Tab.0.right/102.0.1818.1080@102.0.1818.1080" timestamp="1576059872559" />
-    <state x="696" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1576060098203">
+    <state x="696" y="365" key="com.intellij.ide.util.TipDialog" timestamp="1576127452677">
       <screen x="102" y="0" width="1818" height="1080" />
     </state>
-    <state x="696" y="365" key="com.intellij.ide.util.TipDialog/102.0.1818.1080@102.0.1818.1080" timestamp="1576060098203" />
+    <state x="696" y="365" key="com.intellij.ide.util.TipDialog/102.0.1818.1080@102.0.1818.1080" timestamp="1576127452677" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/jd$jd_spider.coverage" NAME="jd_spider Coverage Results" MODIFIED="1576057545503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jd/spiders" />
